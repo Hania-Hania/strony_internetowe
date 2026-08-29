@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+    color :blueviolet;
+    text-align: center;
+}
+#nagłowek h1{
+    font-size: 40px;
+    color:blueviolet;
+}
+#nagłowek p{
+    color:rgb(111, 0, 255);
+    font-family: sans-serif;
+}
+#baner{
+    background-image: url('https://picsum.photos/1200/300?random=6');
+    background-size: cover;       /* obraz pokrywa cały div */
+    background-position: center;  /* wyśrodkowanie obrazu */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.wpis{
+    border: white 1px solid;
+    margin: 15px;
+    padding: 10px;
+}
